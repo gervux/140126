@@ -59,7 +59,6 @@ public class CalculadoraMisteriosa {
 		int a = sc.nextInt();
 		System.out.print("Ingresa el segundo número: ");
 		int b = sc.nextInt();
-
 		return a + b;
 	}
 
@@ -79,7 +78,7 @@ public class CalculadoraMisteriosa {
 		System.out.print("Ingresa el segundo número: ");
 		int num2 = sc.nextInt();
 
-		return num1 + num2;
+		return num1 * num2;
 	}
 
 	public static double dividir(double a, double b) {
