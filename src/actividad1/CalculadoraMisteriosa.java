@@ -94,11 +94,11 @@ public class CalculadoraMisteriosa {
 		double[] numeros = { 10, 20, 30, 40, 50 };
 		double suma = 0;
 
-		for (int i = 0; i <= numeros.length; i++) {
+		for (int i = 0; i <= numeros.length -1; i++) {
 			suma += numeros[i];
 		}
 
-		return suma / (numeros.length - 1);
+		return suma / (numeros.length);
 	}
 
 	public static void mostrarInstrucciones() {
