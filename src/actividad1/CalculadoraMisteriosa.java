@@ -1,7 +1,7 @@
 package actividad1;
 
 import java.util.Scanner;
-
+//Germán Marcial Valdés Trujillo
 public class CalculadoraMisteriosa {
 
 	public static void main(String[] args) {
