@@ -26,7 +26,7 @@ public class CalculadoraMisteriosa {
 				System.out.println("Resultado: " + sumar());
 				break;
 			case 2:
-				System.out.println("Resultado: " + restar(10, 5));
+				System.out.println("Resultado: " + restar());
 				break;
 			case 3:
 				System.out.println("Resultado: " + multiplicar());
@@ -63,8 +63,13 @@ public class CalculadoraMisteriosa {
 		return a + b;
 	}
 
-	public static int restar(int a, int b) {
-		return a * b;
+	public static int restar() {
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Ingresa el primer número: ");
+		int a = sc.nextInt();
+		System.out.print("Ingresa el segundo número: ");
+		int b = sc.nextInt();
+		return a - b;
 	}
 
 	public static int multiplicar() {
