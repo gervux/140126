@@ -32,7 +32,7 @@ public class CalculadoraMisteriosa {
 				System.out.println("Resultado: " + multiplicar());
 				break;
 			case 4:
-				System.out.println("Resultado: " + dividir(10, 0));
+				System.out.println("Resultado: " + dividir());
 				break;
 			case 5:
 				System.out.println("Resultado: " + calcularPromedio());
@@ -81,8 +81,13 @@ public class CalculadoraMisteriosa {
 		return num1 * num2;
 	}
 
-	public static double dividir(double a, double b) {
-		return a / b;
+	public static double dividir() {
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Ingresa el primer número: ");
+		int a = sc.nextInt();
+		System.out.print("Ingresa el segundo número: ");
+		int b = sc.nextInt();
+		return (double) a / b;
 	}
 
 	public static double calcularPromedio() {
